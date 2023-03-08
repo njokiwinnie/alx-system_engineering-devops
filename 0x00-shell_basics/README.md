@@ -7,3 +7,4 @@ ls -la display content of current directory including hidden files in long forma
 ls -na display current directory content in long format with userand group IDs numerically displayed including all the hidden files
 mkdir /tmp/my_first_directory create directory inside another directory
 mv /tmp/tmp /tmp/my_first_directory move file betty
+rm /tmp/my_first_directory/betty to delete the file betty
