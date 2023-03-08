@@ -5,3 +5,4 @@ cd ~  change working directory to user's home directory
 ls -l display current directory in long format
 ls -la display content of current directory including hidden files in long format
 ls -na display current directory content in long format with userand group IDs numerically displayed including all the hidden files
+mkdir -p create directory inside another directory
