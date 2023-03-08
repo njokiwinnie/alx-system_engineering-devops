@@ -9,3 +9,4 @@ mkdir /tmp/my_first_directory create directory inside another directory
 mv /tmp/tmp /tmp/my_first_directory move file betty
 rm /tmp/my_first_directory/betty to delete the file betty
 rmdir /tmp/my_first_directory to delete directory
+cd - to change the working directory to the previous one
