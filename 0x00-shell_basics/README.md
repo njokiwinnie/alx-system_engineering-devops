@@ -11,3 +11,4 @@ rm /tmp/my_first_directory/betty to delete the file betty
 rmdir /tmp/my_first_directory to delete directory
 cd - to change the working directory to the previous one
 ls -la. .. /boot lists files in current directory, parent and /boot in that order and in long format
+file /tmp/iamafile print iamafile type of file in /tmp 
