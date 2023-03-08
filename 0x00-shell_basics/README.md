@@ -12,3 +12,4 @@ rmdir /tmp/my_first_directory to delete directory
 cd - to change the working directory to the previous one
 ls -la. .. /boot lists files in current directory, parent and /boot in that order and in long format
 file /tmp/iamafile print iamafile type of file in /tmp 
+ln -s /bin/ls__ls__ to create a symbolic to /bin/ls named __ls__ which is created in the current directory
