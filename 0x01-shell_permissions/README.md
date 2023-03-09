@@ -7,3 +7,5 @@ touch hello create empty file
 chmod 744 hello to add execute permission to owner
 chmod 754 hello to add execute permission to the owner and the group owner and read permission to other users 
 chmod 751 hello to add execute permission to the owner and the group owner and read permission toother users
+chmod ugo+x hello to add execution permission to the owener. the group owner and other users
+chmod 007 hello set no permissions to owner and group but no restriction t other users
