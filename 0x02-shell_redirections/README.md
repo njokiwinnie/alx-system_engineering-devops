@@ -8,5 +8,5 @@
 6. head -n 3 filename | tail -n 1 filename displays the second line without using sed
 7. echo "Best school" special characterfile to create a file
 8. ls -la > filename redirect the conent of the directory on the file
-9. tail -n 1 >> filename duplicates the last line of file
- 
+9. tail -n 1 filename  >> filenameme duplicates the last line of filename into filename
+10. deletes all the regular files with .js extention which are present in the current directory and its subfolders
