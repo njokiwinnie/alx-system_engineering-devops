@@ -9,4 +9,6 @@
 7. echo "Best school" special characterfile to create a file
 8. ls -la > filename redirect the conent of the directory on the file
 9. tail -n 1 filename  >> filenameme duplicates the last line of filename into filename
-10. deletes all the regular files with .js extention which are present in the current directory and its subfolders
+10. find . -type f name "*.js" -delete to  deletes all the regular files with .js extention which are present in the current directory and its subfolders(-typef is for normal file .
+11. find . -type d -not -name "." |wc-l to count the number od directories and sub directories(-type d specifies directories ,-not -name negates the request, "." requeast to be negated, wc-1 word count
+12. 
