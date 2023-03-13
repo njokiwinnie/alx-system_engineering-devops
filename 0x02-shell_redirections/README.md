@@ -7,4 +7,6 @@
 5. head -n 10 /etc/passwd prints the first 10 lines in a file
 6. head -n 3 filename | tail -n 1 filename displays the second line without using sed
 7. echo "Best school" special characterfile to create a file
-8. 
+8. ls -la > filename redirect the conent of the directory on the file
+9. tail -n 1 >> filename duplicates the last line of file
+ 
