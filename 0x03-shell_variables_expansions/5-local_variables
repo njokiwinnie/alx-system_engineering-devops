@@ -1,2 +1,2 @@
 #!/bin/bash
-set | grep -oP '^[\w\d_]+(?==)' | sort -u && env | grep -oP '^[\w\d_]+(?=)' | sort
+set && env && declare -F
